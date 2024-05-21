@@ -16,10 +16,10 @@
     - Support for feature detection: `withFeatureCheck()`
     - Utility for easy comparison: `is()`
     - Utility to print full-name: `toString()`
-  - Support for ES module `import { UAParser } from 'ua-parser-js'`
-  - Provided Enums submodule `'ua-parser-js/enums'`
-  - Provided Extensions submodule `'ua-parser-js/extensions'`
-  - Provided Helpers submodule `'ua-parser-js/helpers'`
+  - Support for ES module `import { UAParser } from '@applandstream/ua-parser-js'`
+  - Provided Enums submodule `'@applandstream/ua-parser-js/enums'`
+  - Provided Extensions submodule `'@applandstream/ua-parser-js/extensions'`
+  - Provided Helpers submodule `'@applandstream/ua-parser-js/helpers'`
 
 ## Version 2.0.0-beta.2
 

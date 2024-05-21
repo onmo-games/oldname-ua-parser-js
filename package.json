@@ -1,6 +1,6 @@
 {
   "title": "UAParser.js",
-  "name": "@evenius/ua-parser-js",
+  "name": "@applandstream/ua-parser-js",
   "version": "2.0.0-beta.2",
   "author": "Faisal Salman <f@faisalman.com> (http://faisalman.com)",
   "description": "Detect Browser, Engine, OS, CPU, and Device type/model from User-Agent & Client Hints data. Supports browser & node.js environment",
@@ -20,7 +20,7 @@
     "device-detection",
     "os-detection"
   ],
-  "homepage": "https://github.com/evenius/oldname-ua-parser-js",
+  "homepage": "https://github.com/onmo-games/oldname-ua-parser-js",
   "contributors": [
     "Aamir Poonawalla <aamir@urx.com>",
     "Admas <mollases@users.noreply.github.com>",
@@ -222,7 +222,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/evenius/oldname-ua-parser-js.git"
+    "url": "https://github.com/onmo-games/oldname-ua-parser-js.git"
   },
   "license": "AGPL-3.0-or-later",
   "engines": {
@@ -234,7 +234,7 @@
     "src": "src",
     "test": "test"
   },
-  "bugs": "https://github.com/evenius/oldname-ua-parser-js/issues",
+  "bugs": "https://github.com/onmo-games/oldname-ua-parser-js/issues",
   "demo": "https://uaparser.js.org",
   "download": "https://raw.github.com/faisalman/ua-parser-js/master/dist/ua-parser.pack.js",
   "funding": [

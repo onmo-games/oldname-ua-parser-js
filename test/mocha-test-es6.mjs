@@ -1,5 +1,5 @@
-import { UAParser } from 'ua-parser-js';
-import { CPU, Device, Engine } from 'ua-parser-js/enums';
+import { UAParser } from '@applandstream/ua-parser-js';
+import { CPU, Device, Engine } from '@applandstream/ua-parser-js/enums';
 import * as assert from 'assert';
 
 describe('Returns', () => {

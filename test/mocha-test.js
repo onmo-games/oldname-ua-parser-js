@@ -4,7 +4,7 @@ var assert      = require('assert');
 var requirejs   = require('requirejs');
 var parseJS     = require('@babel/parser').parse;
 var traverse    = require('@babel/traverse').default;
-var UAParser    = require('ua-parser-js');
+var UAParser    = require('@applandstream/ua-parser-js');
 var browsers    = require('./specs/browser-all.json');
 var cpus        = require('./specs/cpu-all.json');
 var devices     = require('./specs/device-all.json');
@@ -143,10 +143,10 @@ describe('Using Require.js', function () {
         requirejs.config({
             baseUrl : 'dist',
             paths   : {
-                'ua-parser-js' : 'ua-parser.min'
+                '@applandstream/ua-parser-js' : 'ua-parser.min'
             }
         });
-        requirejs(['ua-parser-js'], function(ua) {
+        requirejs(['@applandstream/ua-parser-js'], function(ua) {
             var parser = new ua('Dillo/1.0');
             assert.deepStrictEqual(parser.getBrowser().name, 'Dillo');
             done();

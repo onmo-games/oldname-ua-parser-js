@@ -29,7 +29,7 @@ const modules = [
     {
         src : 'src/main/ua-parser.js',
         dest : 'src/main/ua-parser.mjs',
-        title : 'ua-parser-js',
+        title : '@applandstream/ua-parser-js',
         replacements : [
             [/\(func[\s\S]+strict\';/ig, ''],
             [/esversion\: 3/ig, 'esversion: 6'],
@@ -38,19 +38,19 @@ const modules = [
     },{
         src : 'src/enums/ua-parser-enums.js',
         dest :'src/enums/ua-parser-enums.mjs',
-        title : 'ua-parser-js/enums',
+        title : '@applandstream/ua-parser-js/enums',
         replacements : []
     },
     {
         src : 'src/extensions/ua-parser-extensions.js',
         dest : 'src/extensions/ua-parser-extensions.mjs',
-        title : 'ua-parser-js/extensions',
+        title : '@applandstream/ua-parser-js/extensions',
         replacements : []
     },
     {
         src : 'src/helpers/ua-parser-helpers.js',
         dest : 'src/helpers/ua-parser-helpers.mjs',
-        title : 'ua-parser-js/helpers',
+        title : '@applandstream/ua-parser-js/helpers',
         replacements : []
     }
 ];
