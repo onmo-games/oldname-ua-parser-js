@@ -230,7 +230,7 @@ describe('is() utility method', function () {
 
     it('Should get result after reassignment', function () {
         uap.setUA("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36");
-        assert.strictEqual(uap.getOS().name, "macOS");
+        assert.strictEqual(uap.getOS().name, "Mac OS");
         assert.strictEqual(uap.getOS().is("Mac OS"), true);
         assert.strictEqual(uap.getOS().is("macOS"), true);
         assert.strictEqual(uap.getOS().is("mac OS"), true);
@@ -456,7 +456,7 @@ describe('Map UA-CH headers', function () {
                     }
             */
 
-            assert.strictEqual(ua.os.is("macOS"), true);
+            assert.strictEqual(ua.os.is("Mac OS"), true);
             assert.strictEqual(ua.cpu.is("arm"), true);            
             assert.strictEqual(ua.device.is("mobile"), false);
             assert.strictEqual(ua.device.is("tablet"), false);

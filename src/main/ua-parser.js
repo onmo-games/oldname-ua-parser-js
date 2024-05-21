@@ -289,7 +289,7 @@
 
             // Most common regardless engine
             /\b(?:crmo|crios)\/([\w\.]+)/i                                      // Chrome for Android/iOS
-            ], [VERSION, [NAME, PREFIX_MOBILE + 'Chrome']], [
+            ], [VERSION, [NAME, 'Chrome']], [
             /edg(?:e|ios|a)?\/([\w\.]+)/i                                       // Microsoft Edge
             ], [VERSION, [NAME, 'Edge']], [
 
@@ -349,7 +349,7 @@
             /miuibrowser\/([\w\.]+)/i                                           // MIUI Browser
             ], [VERSION, [NAME, 'MIUI' + SUFFIX_BROWSER]], [
             /fxios\/([\w\.-]+)/i                                                // Firefox for iOS
-            ], [VERSION, [NAME, PREFIX_MOBILE + FIREFOX]], [
+            ], [VERSION, [NAME, FIREFOX]], [
             /\bqihu|(qi?ho?o?|360)browser/i                                     // 360
             ], [[NAME, '360' + SUFFIX_BROWSER]], [
             /(oculus|sailfish|huawei|vivo)browser\/([\w\.]+)/i
@@ -397,7 +397,7 @@
             ], [VERSION, [NAME, 'Android' + SUFFIX_BROWSER]], [
 
             /chrome\/([\w\.]+) mobile/i                                         // Chrome Mobile
-            ], [VERSION, [NAME, PREFIX_MOBILE + 'Chrome']], [
+            ], [VERSION, [NAME, 'Chrome']], [
 
             /(chrome|omniweb|arora|[tizenoka]{5} ?browser)\/v?([\w\.]+)/i       // Chrome/OmniWeb/Arora/Tizen/Nokia
             ], [NAME, VERSION], [
@@ -416,7 +416,7 @@
 
             // Gecko based
             /(?:mobile|tablet);.*(firefox)\/([\w\.-]+)/i                        // Firefox Mobile
-            ], [[NAME, PREFIX_MOBILE + FIREFOX], VERSION], [
+            ], [[NAME, FIREFOX], VERSION], [
             /(navigator|netscape\d?)\/([-\w\.]+)/i                              // Netscape
             ], [[NAME, 'Netscape'], VERSION], [
             /mobile vr; rv:([\w\.]+)\).+firefox/i                               // Firefox Reality
@@ -778,7 +778,7 @@
             ], [[VERSION, /_/g, '.'], [NAME, 'iOS']], [
             /(mac os x) ?([\w\. ]*)/i,
             /(macintosh|mac_powerpc\b)(?!.+haiku)/i                             // Mac OS
-            ], [[NAME, 'macOS'], [VERSION, /_/g, '.']], [
+            ], [[NAME, 'Mac OS'], [VERSION, /_/g, '.']], [
 
             // Mobile OSes
             /droid ([\w\.]+)\b.+(android[- ]x86|harmonyos)/i                    // Android-x86/HarmonyOS
@@ -804,7 +804,7 @@
             /crkey\/([\d\.]+)/i                                                 // Google Chromecast
             ], [VERSION, [NAME, CHROME+'cast']], [
             /(cros) [\w]+(?:\)| ([\w\.]+)\b)/i                                  // Chromium OS
-            ], [[NAME, "Chrome OS"], VERSION],[
+            ], [[NAME, "Chromium OS"], VERSION],[
 
             // Smart TVs
             /panasonic;(viera)/i,                                               // Panasonic Viera

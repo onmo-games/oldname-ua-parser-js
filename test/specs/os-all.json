@@ -688,7 +688,7 @@
         "ua"      : "Mozilla/5.0 (X11; CrOS x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.0.0 Safari/537.36",
         "expect"  :
         {
-            "name"    : "Chrome OS",
+            "name"    : "Chromium OS",
             "version" : "undefined"
         }
     },
@@ -697,7 +697,7 @@
         "ua"      : "Mozilla/5.0 (X11; CrOS x86_64 10575.58.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
         "expect"  :
         {
-            "name"    : "Chrome OS",
+            "name"    : "Chromium OS",
             "version" : "10575.58.0"
         }
     },
@@ -832,7 +832,7 @@
         "ua"      : "Mozilla/4.0 (compatible; MSIE 5.0b1; Mac_PowerPC)",
         "expect"  :
         {
-            "name"    : "macOS",
+            "name"    : "Mac OS",
             "version" : "undefined"
         }
     },
@@ -841,7 +841,7 @@
         "ua"      : "Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:10.0) Gecko/20100101 Firefox/10.0",
         "expect"  :
         {
-            "name"    : "macOS",
+            "name"    : "Mac OS",
             "version" : "x.y"
         }
     },
@@ -850,7 +850,7 @@
         "ua"      : "Mozilla/5.0 (Macintosh; PPC Mac OS X x.y; rv:10.0) Gecko/20100101 Firefox/10.0",
         "expect"  :
         {
-            "name"    : "macOS",
+            "name"    : "Mac OS",
             "version" : "x.y"
         }
     },
@@ -859,7 +859,7 @@
         "ua"      : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36",
         "expect"  :
         {
-            "name"    : "macOS",
+            "name"    : "Mac OS",
             "version" : "10.6.8"
         }
     },

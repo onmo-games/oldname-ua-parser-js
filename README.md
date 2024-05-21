@@ -1,3 +1,9 @@
+# Important Note
+
+This is a fork of [UA-Parser-JS](https://github.com/faisalman/ua-parser-js) that undos some breaking changes to browser names, because of... Pipelines. Namely these:
+- Browser detection on mobile device: `"Mobile Chrome" => "Chrome"`, `"Mobile Firefox" => "Firefox"`
+- OS detection: `"macOS" => "Mac OS"`, `"Chrome OS" => "Chromium OS"`
+
 <p align="center">
     <a href="https://uaparser.js.org"><img src="https://raw.githubusercontent.com/faisalman/ua-parser-js/gh-pages/images/uap-header.png"></a>
 </p>

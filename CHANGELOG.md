@@ -1,5 +1,10 @@
 # UAParser.js Changelog
 
+# Evenius Notes
+- Reset breaking browser changes:
+  - Browser detection on mobile device: `"Mobile Chrome" => "Chrome"`, `"Mobile Firefox" => "Firefox"`
+  - OS detection: `"macOS" => "Mac OS"`, `"Chrome OS" => "Chromium OS"`
+
 # Version 2.0
 - What's breaking:
   - Dual-licensed under AGPLv3 or PRO License
